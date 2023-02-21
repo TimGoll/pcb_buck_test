@@ -72,8 +72,8 @@ _(output voltage vs different output currents)_
 ![TPS62160DSG efficiency range](benchmarks/plots/tps62160_neg_eff.png)
 _(efficiency vs different output currents)_
 
-The same IC from the previous test was used again, but in a special configuration. With the addition of a few further passive components this IC can be used as an inverted powersupply. While the input voltage range is decreased that way, the overall performance is still great.
+The same IC from the previous test was used again, but in a special configuration. With the addition of a few further passive components this IC can be used as an inverted power supply. While the input voltage range is decreased that way, the overall performance is still great.
 
-One thing to highlight that it is possible to get stable `-5V` from a `5V` source for up to `450mA` of continous current. This makes this IC great for the use in OpAmp circuits were a negative rail is needed.
+One thing to highlight that it is possible to get stable `-5V` from a `5V` source for up to `450mA` of continous current. This makes this IC great for the use in OpAmp circuits where a negative rail is needed.
 
 A minor drawback is that the efficiency is greatly reduced.
